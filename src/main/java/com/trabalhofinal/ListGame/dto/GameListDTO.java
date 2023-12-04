@@ -1,6 +1,6 @@
 package com.trabalhofinal.ListGame.dto;
 
-import com.devsuperior.dslist.entities.GameList;
+import com.trabalhofinal.ListGame.entities.GameList;
 
 public class GameListDTO {
 

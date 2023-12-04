@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.0</version>
+		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.trabalhofinal</groupId>
-	<artifactId>ListGame</artifactId>
+	<groupId>com.devsuperior</groupId>
+	<artifactId>dslist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ListGame</name>
-	<description>Projeto de desenvolvimento de um Sistema de Coleção de Jogos para a disciplina de Programação 1 d</description>
+	<name>dslist</name>
+	<description>Intensivão Java Spring</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -50,6 +50,7 @@
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
 			</plugin>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
