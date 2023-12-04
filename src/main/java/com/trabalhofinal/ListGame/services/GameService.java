@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.devsuperior.dslist.dto.GameDTO;
-import com.devsuperior.dslist.dto.GameMinDTO;
-import com.devsuperior.dslist.entities.Game;
-import com.devsuperior.dslist.projections.GameMinProjection;
-import com.devsuperior.dslist.repositories.GameRepository;
+import com.trabalhofinal.ListGame.dto.GameDTO;
+import com.trabalhofinal.ListGame.dto.GameMinDTO;
+import com.trabalhofinal.ListGame.entities.Game;
+import com.trabalhofinal.ListGame.projections.GameMinProjection;
+import com.trabalhofinal.ListGame.repositories.GameRepository;
 
 @Service
 public class GameService {

@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dslist.dto.GameListDTO;
-import com.devsuperior.dslist.dto.GameMinDTO;
-import com.devsuperior.dslist.dto.ReplacementDTO;
-import com.devsuperior.dslist.services.GameListService;
-import com.devsuperior.dslist.services.GameService;
+import com.trabalhofinal.ListGame.dto.GameListDTO;
+import com.trabalhofinal.ListGame.dto.GameMinDTO;
+import com.trabalhofinal.ListGame.dto.ReplacementDTO;
+import com.trabalhofinal.ListGame.services.GameListService;
+import com.trabalhofinal.ListGame.services.GameService;
 
 @RestController
 @RequestMapping(value = "/lists")

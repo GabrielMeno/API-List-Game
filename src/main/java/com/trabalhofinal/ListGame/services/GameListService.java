@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dslist.dto.GameListDTO;
-import com.devsuperior.dslist.entities.GameList;
-import com.devsuperior.dslist.projections.GameMinProjection;
-import com.devsuperior.dslist.repositories.GameListRepository;
-import com.devsuperior.dslist.repositories.GameRepository;
+import com.trabalhofinal.ListGame.dto.GameListDTO;
+import com.trabalhofinal.ListGame.entities.GameList;
+import com.trabalhofinal.ListGame.projections.GameMinProjection;
+import com.trabalhofinal.ListGame.repositories.GameListRepository;
+import com.trabalhofinal.ListGame.repositories.GameRepository;
 
 @Service
 public class GameListService {
