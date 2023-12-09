@@ -1,4 +1,4 @@
-# Projeto GameList - Trabalho Final da Disciplina de Programação 1 
+# Projeto GameList 
 
 Aluno: Gabriel Henrique Menoncin
 
